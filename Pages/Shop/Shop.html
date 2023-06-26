@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SVU HW</title>
+
+    <link rel="stylesheet" href="Shop.css">
+    <script defer type="module" src="Shop.js"></script>
+
+    <link rel="stylesheet" href="../../Components/Header/Header.css">
+    <script defer type="module" src="../../Components/Header/Header.js"></script>
+
+    <link rel="stylesheet" href="../../Components/Footer/Footer.css">
+    <script defer type="module" src="../../Components/Footer/Footer.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <form action="" method="get">
+            <div>
+                <label>Genre</label>
+                <select>
+                    <option value="Any">Any</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="text" id="search-field" name="search-field" placeholder="Book's name goes here..."
+                    required />
+                <button type="submit">Search</button>
+            </div>
+        </form>
+
+        <main id="book-card-displayer">
+            <figure class="book-card" data-rating="4.7">
+                <img src="../../Images/1889.png" alt="book_preview_image" />
+
+                <figcaption>
+                    <a href="#" class="add-to-cart-button">
+                        <button></button>
+                    </a>
+
+                    <h4 title="Book Title">Book Title</h4>
+                    <p class="price-displayer">999.99$</p>
+                </figcaption>
+            </figure>
+        </main>
+
+        <div id="pagination-button-displayer" class="button-displayer">
+            <a href="#">
+                <button class="left-arrowed-button">Previous</button>
+            </a>
+            <p>Page 2</p>
+            <a href="#">
+                <button class="arrowed-button">Next</button>
+            </a>
+        </div>
+    </main>
+
+</body>
+
+</html>

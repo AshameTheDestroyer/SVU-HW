@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SVU HW</title>
+
+    <link rel="stylesheet" href="Cart.css">
+    <script defer src="Cart.js"></script>
+
+    <link rel="stylesheet" href="../../Components/Header/Header.css">
+    <script defer type="module" src="../../Components/Header/Header.js"></script>
+
+    <link rel="stylesheet" href="../../Components/Footer/Footer.css">
+    <script defer type="module" src="../../Components/Footer/Footer.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Booked Books:</h1>
+
+        <main id="booked-book-displayer">
+            <header>
+                <h3>Item</h3>
+                <h3>Quantity</h3>
+                <h3>Price</h3>
+                <h3>Subtotal</h3>
+            </header>
+
+            <section>
+                <div>
+                    <span>
+                        <p>Book Title</p>
+                        <button class="delete-button"></button>
+                    </span>
+                    <span>
+                        <p>999</p>
+                        <button class="minus-button"></button>
+                        <button class="plus-button"></button>
+                    </span>
+                    <span>
+                        <p>999.99$</p>
+                    </span>
+                    <span>
+                        <p>999,999.99$</p>
+                    </span>
+                </div>
+            </section>
+        </main>
+
+        <div class="button-displayer">
+            <a href="../../Pages/Shop/Shop.html">
+                <button class="icon-button" id="continue-shopping-button">Continue Shopping</button>
+            </a>
+
+            <a href="../../Pages/Checkout/Checkout.html">
+                <button class="icon-button" id="checkout-button">Checkout</button>
+            </a>
+        </div>
+    </main>
+
+</body>
+
+</html>
